@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f0eb;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.link-1 {
+  color: crimson;
+}
+.link-2 {
+  color: seagreen;
+}
+.link-3 {
+  color: royalblue;
+}
+
+.autor-imie {
+  color: darkorange;
+  font-weight: bold;
+}
+
+.artykul-obrazek {
+  max-width: 100%;
+}
+
+.tabela-produktow {
+  border-collapse: collapse;
+}
+
+.tabela-produktow th,
+.tabela-produktow td {
+  border: 1px solid black;
+  padding: 8px 12px;
+}
+
+.wiersz {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.kwadrat {
+  width: 100px;
+  height: 100px;
+}
+
+.kolor-1 {
+  background-color: tomato;
+}
+.kolor-2 {
+  background-color: gold;
+}
+.kolor-3 {
+  background-color: mediumseagreen;
+}
+.kolor-5 {
+  background-color: slateblue;
+}
+
+img.kwadrat {
+  object-fit: cover;
+}
