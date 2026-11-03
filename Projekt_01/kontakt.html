@@ -20,6 +20,34 @@
 
     <main>
       <h1>Kontakt</h1>
+
+      <form>
+        <p>
+          <label for="email">E-mail: dmazurek@student.agh.edu.pl</label><br />
+          <input type="email" id="email" name="email" required />
+        </p>
+
+        <p>
+          <label for="temat">Temat:</label><br />
+          <select id="temat" name="temat" required>
+            <option value="">Wybierz temat</option>
+            <option value="pytanie">Pytanie</option>
+            <option value="wspolpraca">Współpraca</option>
+            <option value="inne">Inne</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="wiadomosc">Wiadomość:</label><br />
+          <textarea
+            id="wiadomosc"
+            name="wiadomosc"
+            rows="6"
+            required></textarea>
+        </p>
+
+        <button type="submit">Wyślij</button>
+      </form>
     </main>
 
     <footer>
