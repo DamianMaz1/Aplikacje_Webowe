@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 3 – Ćwiczenie 3: Produkty</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>Produkty</h1>
+
+      <div class="panel">
+        <input type="text" id="filtr" placeholder="Szukaj produktu..." />
+        <select id="sortowanie">
+          <option value="oryginalna">Oryginalna kolejność</option>
+          <option value="rosnaco">Rosnąco</option>
+          <option value="malejaco">Malejąco</option>
+        </select>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Zdjęcie</th>
+            <th>Tytuł</th>
+            <th>Opis</th>
+          </tr>
+        </thead>
+        <tbody id="produkty">
+          <tr><td colspan="3">Ładowanie...</td></tr>
+        </tbody>
+      </table>
+
+      <p><a href="index.html">Powrót</a></p>
+    </main>
+
+    <script src="cwiczenie3.js"></script>
+  </body>
+</html>

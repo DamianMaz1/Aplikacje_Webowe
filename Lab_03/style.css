@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f0eb;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  color: royalblue;
+}
+
+button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Ćwiczenie 1 – stoper */
+.stoper-czas {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* Ćwiczenie 2 – generator haseł */
+.formularz label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.formularz input[type="number"] {
+  width: 80px;
+  margin-left: 8px;
+}
+
+/* Ćwiczenie 3 – tabela produktów */
+.panel {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.panel input {
+  flex: 1;
+  padding: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #e0d8cf;
+}
+
+td img {
+  width: 100px;
+}
