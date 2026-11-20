@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lab 3 – Zadanie domowe: Flappy Bird</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div id="plansza">
+			<canvas id="gra" width="288" height="512"></canvas>
+
+			<!-- Ekran końcowy (Game Over / Gratulacje) – pokazywany przez JS -->
+			<div id="ekran-koncowy" class="nakladka ukryty">
+				<img id="napis-gameover" src="assets/UI/gameover.png" alt="Game Over" />
+				<h2 id="napis-gratulacje" class="ukryty">Gratulacje!<br />Nowy rekord!</h2>
+
+				<p>Wynik: <strong id="wynik-gry">0</strong></p>
+				<p>Najlepszy wynik: <strong id="najlepszy-wynik">0</strong></p>
+
+				<h3>Top 5</h3>
+				<ol id="top5"></ol>
+
+				<button id="zagraj-ponownie">Zagraj ponownie</button>
+			</div>
+		</div>
+
+		<p class="instrukcja">
+			Spacja – lot w górę. Bonusy: <b class="b-duch">D</b> – duch (5 s przelatujesz przez rury),
+			<b class="b-szybko">F</b> – fast forward.
+			<a href="../index.html">Powrót</a>
+		</p>
+
+		<script src="gra.js"></script>
+	</body>
+</html>

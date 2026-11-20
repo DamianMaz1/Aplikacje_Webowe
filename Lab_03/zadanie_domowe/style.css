@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #2b2b2b;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#plansza {
+	position: relative;
+	height: min(85vh, 768px);
+	aspect-ratio: 288 / 512;
+	margin-top: 10px;
+}
+
+#gra {
+	width: 100%;
+	height: 100%;
+	display: block;
+	image-rendering: pixelated; /* ostre piksele po powiększeniu */
+}
+
+.nakladka {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.55);
+	text-align: center;
+}
+
+.nakladka p {
+	margin: 4px 0;
+	font-size: 18px;
+}
+
+.nakladka h2 {
+	color: gold;
+	margin: 0 0 10px;
+}
+
+.nakladka h3 {
+	margin: 12px 0 4px;
+}
+
+.nakladka ol {
+	margin: 0 0 16px;
+	padding-left: 24px;
+	text-align: left;
+}
+
+#napis-gameover {
+	width: 70%;
+	image-rendering: pixelated;
+	margin-bottom: 10px;
+}
+
+#zagraj-ponownie {
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #f0a020;
+	color: white;
+	border: 3px solid white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.ukryty {
+	display: none;
+}
+
+.instrukcja {
+	font-size: 14px;
+}
+
+.instrukcja a {
+	color: #8cf;
+}
+
+.b-duch {
+	color: #7fd3ff;
+}
+
+.b-szybko {
+	color: #ffa040;
+}
